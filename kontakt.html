@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Avanturist - Kontakt</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="slike/favicon.jpg" />
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Naslovnica</a>
+      <a href="onama.html">O nama</a>
+      <a href="eko-turizam.html">Eko turizam</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="ponuda.html">Ponude</a>
+      <a href="mapa.html">Mapa</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        Menu
+      </a>
+    </div>
+
+    <header class="page-header">
+      <h1 class="site-title">AVANTURIST</h1>
+    </header>
+
+    <main class="container">
+      <article class="page-content">
+        <h2 class="page-title">Kontakt</h2>
+        <p style="text-align: justify; margin: 20px">
+          Putnička agencija postaje vaš saveznik, vaš vodič i veza sa svjetom
+          avanture. Naša posvećenost omogućava putnicima da se opuste i u
+          potpunosti uživaju u svim čarima putovanja, znajući da su u rukama
+          stručnjaka koji brinu o njihovom iskustvu. Osim toga, putničke
+          agencije često imaju pristup ekskluzivnim ponudama, popustima i
+          paketima koji nisu javno dostupni. To može uključivati posebne ture,
+          pristup događajima ili unikatnim iskustvima koja obogaćuju putovanje
+          na način koji putnik možda nije mogao samostalno organizirati. Kroz
+          kontakt sa putničkom agencijom, putnici imaju priliku da se oslone na
+          profesionalce koji su tu da riješe potencijalne probleme, pruže
+          podršku tokom putovanja i osiguraju da iskustvo putovanja bude bez
+          stresa i nezaboravno. Ukoliko imate pitanja vezana za naše ponude i
+          usluge molim vas da nam bez obveze pošaljete upit i pokušat ćemo
+          odgovoriti u što kraćem roku.
+        </p>
+        <div class="grid-container">
+          <div>
+            <p><strong>Adresa:</strong> Palmotićeva ul. 82/1</p>
+            <p><strong>Mobilni telefon:</strong> +385 91 56 77 954</p>
+            <p><strong>E-mail:</strong> marko.preskocil8@gmail.com</p>
+            <p>
+              <strong>Radno vrijeme:</strong> ponedjeljak – petak: 8:00 – 16:00
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.2675691475447!2d15.97937037629269!3d45.80589947108167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6fd9613d863%3A0xe8e99c87182d0c24!2sVern!5e0!3m2!1shr!2shr!4v1698831572758!5m2!1shr!2shr"
+              style="border: 5px solid; height: 300px; width: 100%"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div>
+            <form class="kontakt-obrazac" action="" method="post">
+              <label for="ime">Ime i Prezime</label>
+              <input id="ime" name="ime" type="text" required />
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" required />
+              <label for="predmet">Predmet poruke</label>
+              <input id="predmet" name="predmet" type="text" />
+              <label for="poruka">Poruka</label>
+              <textarea name="poruka" id="poruka" rows="10"></textarea>
+              <input type="submit" name="submit_btn" value="Pošalji poruku" />
+            </form>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer class="page-footer">Avanturist &copy; 2023.</footer>
+    <script src="navbar.js"></script>
+  </body>
+</html>
